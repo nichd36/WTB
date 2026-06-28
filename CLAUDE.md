@@ -36,6 +36,12 @@ When creating a PR, its title should be: `<type>([optional scope]): <description
 `style` - Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 `test` - Adding missing tests or correcting existing tests and also changes for our test app
 
+## PR description
+
+1. Start with `Background`, on why the changes are needed
+2. Then `Summary`, for summary of changes
+3. Lastly `Validation`, leave this empty for developers to fill
+
 # Technical Details
 
 1. FastAPI app
