@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from constants.metadata import FastAPIMetadata
+from src.constants.metadata import FastAPIMetadata
 
 # Create instance of FastAPIMetadata
 app_metadata = FastAPIMetadata()
