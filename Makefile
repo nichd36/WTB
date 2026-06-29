@@ -7,6 +7,8 @@ init-env:
 	uv venv $(UV_NAME) --python $(PYTHON_VERSION)
 	@echo "Installing dependencies"
 	uv sync
+	@echo "Installing pre-commit hooks"
+	uv run pre-commit install
 
 start:
 	uv run uvicorn src.server:app --reload --host 0.0.0.0 --port 8000
